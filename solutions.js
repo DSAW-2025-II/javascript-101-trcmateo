@@ -1,8 +1,9 @@
 // Sum of Two Numbers
 function sum(a, b) {
-  // Add your code here
-}
-
+  var a =2;
+  var b =3;
+  console.log(a+b);// Add your code here
+};
 // Factorial of a Number
 function factorial(n) {
   // Add your code here
