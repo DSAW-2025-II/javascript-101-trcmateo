@@ -22,7 +22,18 @@ function factorial(n) {
 
 // Find the Largest Number
 function findLargest(arr) {
-  // Add your code here
+  if (!Array.isArray(arr) || arr.length === 0) {
+    console.log("Los datos de entrada no son adecuados");
+    return;
+  }
+  let largest = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > largest) {
+      largest = arr[i];
+    }
+  }
+  
+  return largest;
 }
 
 // Count Vowels in a String
