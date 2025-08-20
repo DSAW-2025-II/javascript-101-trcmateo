@@ -19,7 +19,7 @@ describe("Sum of Two Numbers", () => {
     const consoleSpy = jest.spyOn(console, "log");
     sum("a", 5);
     expect(consoleSpy).toHaveBeenCalledWith(
-      "a and b must be numbers"
+      "Los datos de entrada no son adecuados"
     );
   });
 });
