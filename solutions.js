@@ -8,8 +8,16 @@ function sum(a, b) {
 }
 
 // Factorial of a Number
-function factorial(n) {
-  // Add your code here
+function factorial(n) { 
+  if (typeof n !== 'number' || n < 0) {
+    console.log("Los datos de entrada no son adecuados");
+    return;
+  }
+  let result = 1;
+  for (let i = 2; i <= n; i++) {
+    result *= i;
+  }
+  return result;
 }
 
 // Find the Largest Number
