@@ -1,7 +1,12 @@
 // Sum of Two Numbers
 function sum(a, b) {
-  console.log(a+b);// Add your code here
-};
+  if (typeof a === 'number' && typeof b === 'number') {
+    return a + b;
+  } else {
+    return 'a and b must be numbers';
+  }
+}
+
 // Factorial of a Number
 function factorial(n) {
   // Add your code here
