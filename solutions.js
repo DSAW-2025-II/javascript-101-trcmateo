@@ -3,7 +3,7 @@ function sum(a, b) {
   if (typeof a === 'number' && typeof b === 'number') {
     return a + b;
   } else {
-    return "Los datos de entrada no son adecuados";
+    console.log("Los datos de entrada no son adecuados");
   }
 }
 
